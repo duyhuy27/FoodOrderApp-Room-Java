@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/backgroundItemAddress"
+    android:padding="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/mapIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_mapp"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/linerContent"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/mapIcon"
+            android:orientation="vertical"
+            tools:ignore="RelativeOverlap">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duy_huy"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/detailsAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_77_ngo_235_thuong_cat"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+       <ImageView
+           android:id="@+id/details"
+           android:layout_alignParentEnd="true"
+           android:layout_centerVertical="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_round_navigate_next_24"
+           android:layout_marginEnd="@dimen/_10sdp"
+           android:layout_gravity="center_vertical"
+           tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

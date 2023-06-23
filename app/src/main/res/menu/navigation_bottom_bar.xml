@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_bottom"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/cart_bottom"
+        android:title="@string/cart"
+        android:icon="@drawable/cart_primary"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/feedback_bottom"
+        android:title="@string/feedback"
+        android:icon="@drawable/comment"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/contact_bottom"
+        android:title="@string/Contact"
+        android:icon="@drawable/ic_call"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/history_bottom"
+        android:title="@string/history"
+        android:icon="@drawable/ic_orderhistory"
+        android:iconTint="@color/white"/>
+
+
+</menu>
